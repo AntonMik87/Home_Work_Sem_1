@@ -12,7 +12,7 @@ Console.WriteLine("Сравним квадрат числа (b) c числом (
 
 if( y == a )
 {
-    Console.WriteLine("Ура! (y = a) Квадрат число (a) является квадратом числа (b)");
+    Console.WriteLine("Ура! (y= a) число (a) является квадратом числа (b)");
 }
 
 if(y != a)
