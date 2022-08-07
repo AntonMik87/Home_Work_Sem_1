@@ -1,11 +1,13 @@
 ﻿// Выяснить является ли число чётным
-int x;
-x = Console.Read();
-if(x%2==0)
+int n;
+Console.WriteLine("введите число: ");
+n = int.Parse(Console.ReadLine());
+
+if(n % 2 == 0)
 {
-    Console.WriteLine("Четное");
+    Console.Write("Четное");
 }
 else
 {
-    Console.WriteLine("Нечетное");
+    Console.Write("Нечетное");
 }
