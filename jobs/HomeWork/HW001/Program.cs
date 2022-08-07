@@ -1,18 +1,18 @@
 ﻿// По двум заданным числам проверять является ли первое квадратом второго
-int a = 4;
-int b = 2;
-Console.WriteLine("Даны два числа a = 4 и b = 2. Найдем квадрат чтсла (b): ");
+Console.WriteLine("Введите числа: ");
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
 int y = b*b;
 int result = y;
-Console.WriteLine("Квадрат числа (b) равен: ");
-Console.WriteLine(y);
+Console.WriteLine( "Квадрат числа (b) равен: " + y );
 
 Console.WriteLine("Сравним квадрат числа (b) c числом (a)");
 
 
 if( y == a )
 {
-    Console.WriteLine("Ура! (y= a) число (a) является квадратом числа (b)");
+    Console.WriteLine( (y == a) + " число (a) является квадратом числа (b)");
 }
 
 if(y != a)
