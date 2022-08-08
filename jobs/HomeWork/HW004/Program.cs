@@ -5,9 +5,9 @@ n = int.Parse(Console.ReadLine());
 
 if(n % 2 == 0)
 {
-    Console.Write("Четное");
+    Console.WriteLine("Четное");
 }
 else
 {
-    Console.Write("Нечетное");
+    Console.WriteLine("Нечетное");
 }

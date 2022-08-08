@@ -4,5 +4,5 @@ Console.WriteLine("введите трехзначное число: ");
 n = int.Parse(Console.ReadLine());
 int x = n % 10;
 
-Console.Write("последняя цифра: " + x);
+Console.WriteLine("последняя цифра: " + x);
 

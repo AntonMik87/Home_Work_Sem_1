@@ -5,4 +5,4 @@ n = int.Parse(Console.ReadLine());
 int x = n/10;
 x = x%10;
 
-Console.Write("вторая цифра: " + x);
+Console.WriteLine("вторая цифра: " + x);

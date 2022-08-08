@@ -9,7 +9,7 @@ int y = int.Parse(Console.ReadLine());Console.WriteLine("Делитель: " + y
 int z;
 if (x % y == 0) 
 {
-     Console.Write("Кратно");
+     Console.WriteLine("Кратно");
 }
  
 else
